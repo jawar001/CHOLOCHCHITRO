@@ -1,0 +1,70 @@
+{
+  "name": "Bangladesh Cinema Timeline — Cinematic Dark",
+  "mode": "dark-only",
+  "color": {
+    "bg": "#08060A",
+    "bgDeep": "#000000",
+    "surface": "#140C0E",
+    "surfaceRaised": "#1E1410",
+    "surfaceVelvet": "#2A0F14",
+    "ink": "#F5E9D4",
+    "inkSoft": "#D9C7A7",
+    "inkMuted": "#8A7B6B",
+    "border": "#3A2620",
+    "accentGold": "#E8B547",
+    "accentGoldGlow": "#FFD27A",
+    "accentRed": "#C9183B",
+    "accentRedDeep": "#7A0E22",
+    "accentSepia": "#C4946A",
+    "accentTeal": "#2E6E6A",
+    "filmGrain": "rgba(232,181,71,0.04)"
+  },
+  "font": {
+    "display": "'Playfair Display', 'Cormorant Garamond', Georgia, serif",
+    "marquee": "'Bebas Neue', 'Oswald', Impact, sans-serif",
+    "body": "'Inter', -apple-system, system-ui, sans-serif",
+    "bangla": "'Hind Siliguri', 'Noto Sans Bengali', system-ui, sans-serif"
+  },
+  "scale": {
+    "step": "4px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "24px",
+    "6": "32px",
+    "7": "48px",
+    "8": "64px",
+    "9": "96px",
+    "10": "128px"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "24px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "sm": "0 2px 8px rgba(0,0,0,0.4)",
+    "md": "0 8px 24px rgba(0,0,0,0.55)",
+    "lg": "0 20px 60px rgba(0,0,0,0.7)",
+    "glowGold": "0 0 24px rgba(232,181,71,0.35), 0 0 60px rgba(232,181,71,0.15)",
+    "glowRed": "0 0 24px rgba(201,24,59,0.35), 0 0 60px rgba(201,24,59,0.15)",
+    "innerVignette": "inset 0 0 120px rgba(0,0,0,0.85)"
+  },
+  "motion": {
+    "fastMs": 180,
+    "baseMs": 320,
+    "slowMs": 600,
+    "cinematicMs": 1200,
+    "easeOut": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "easeIn": "cubic-bezier(0.55, 0.055, 0.675, 0.19)",
+    "easeInOut": "cubic-bezier(0.65, 0, 0.35, 1)"
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "1024px",
+    "lg": "1440px"
+  }
+}
