@@ -47,29 +47,28 @@ properties in `:root` inside `index.html`.
 
 ## Run it locally
 
-The site is a static HTML file, so any of these works:
+The site is a static HTML file in `docs/`, so any of these works:
 
 ```bash
 # Option 1 — open directly
-xdg-open index.html      # Linux
-open index.html          # macOS
-start index.html         # Windows
+xdg-open docs/index.html   # Linux
+open docs/index.html       # macOS
+start docs/index.html      # Windows
 
 # Option 2 — serve over HTTP (recommended; some browsers restrict file://)
-python3 -m http.server 8765
+python3 -m http.server 8765 --directory docs
 # then visit http://localhost:8765/
 ```
 
 ## GitHub Pages
 
-This repository is published with **GitHub Pages** from the `main` branch root:
+This repository is published with **GitHub Pages** from `main` / `docs`:
 
 ```
 https://jawar001.github.io/CHOLOCHCHITRO/
 ```
 
-To re-enable or change the source:
-*Repo → Settings → Pages → Source: `Deploy from a branch` → Branch: `main` / `(root)`.*
+To change the source: *Repo → Settings → Pages → Branch: `main` / `/docs`*.
 
 ## Credits
 
